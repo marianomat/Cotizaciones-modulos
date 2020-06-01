@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    background: #212529;
+    color: white;
+    font-size: 1rem!important;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+}
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 5%;
+}
+
+#main {
+    display: flex;
+    margin: 2% 5%;
+}
+
+#lista-monedas {
+    width: 50%;
+    margin: 0% 5%;
+}
+
+#lista-cotizaciones {
+    width: 50%;
+    margin: 0% 5%;
+}
+
